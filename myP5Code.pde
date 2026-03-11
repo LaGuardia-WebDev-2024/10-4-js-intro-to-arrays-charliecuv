@@ -8,6 +8,14 @@ setup = function() {
     text("🍽", i, 370)
   }
 
+  var idk = ["plate", "fork", "knife"];
+  text(idk[0], 30, 30);
+  text(idk[1], 30, 70);
+  text(idk[2], 30, 110);
+
+  var welp = 3;
+  text("we have " + idk.length + " things to \n eat with", 30, 160);
+
 
 };
 
